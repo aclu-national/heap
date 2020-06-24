@@ -2,6 +2,7 @@
     materialized = 'incremental',
     sort = 'session_start_time',
     dist = 'session_id',
+    tags = ['daily', 'dw', 'heap', 'website','attribution'],
     unique_key = 'session_id'
     )}}
 
